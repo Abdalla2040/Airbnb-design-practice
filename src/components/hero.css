@@ -1,0 +1,98 @@
+
+
+
+.hero-container{
+    display: grid;
+    gap: 1rem;
+    width: 80%;
+    
+    margin: 0 auto;
+    margin-top: -1rem;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+    grid-template-areas: 
+        "image28  image30  image27  image22  image25"
+        "image28  image30  image27  image22  image25"
+        "image28  image30  image27  image22  image25"
+        "image28  image26  image27  image23  image25"
+        "image28  image26  image27  image23  image24"
+        "image28  image26  image29  image23  image24"
+        "image28  image26  image29  image23  image24"
+        "image28  image26  image29  image23  image24"
+        "image28  image26  image29  image23  image24"
+    ;
+}
+
+.image23, .image24, .image25, .image26, .image27, .image28, .image29{
+    width: 100%;
+    border-radius: 30px;
+    filter: drop-shadow(0 8px 3px rgb(120, 115, 115));
+}
+.image22, .image30{
+    width: 100%;
+    filter: drop-shadow(0 8px 3px rgb(120, 115, 115));
+    border-radius: 20px; 
+}
+
+.span-row-2{
+    grid-row: span 2;
+}
+.span-column-2{
+    grid-column: span 2;
+}
+.image28{
+    align-self: center;
+}
+.image22{
+    grid-area: image22;
+    margin-top: 5rem;
+}
+.image23{
+    grid-area: image23;
+}
+.image24{
+    grid-area: image24;
+}
+.image25{
+    grid-area: image25;
+    margin-top: 8rem;
+}
+.image26{
+    grid-area: image26;
+    margin-top: -2rem;
+}
+.image27{
+    grid-area: image27;
+    align-self: flex-end;
+}
+.image28{
+    grid-area: image28;
+}
+.image29{
+    grid-area: image29;
+}
+.image30{
+    grid-area: image30;
+    align-self: flex-end;
+    margin-bottom: 2rem;
+}
+
+.title{
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 5em;
+    font-weight: 700;
+    line-height: 1.5em;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    margin-left: 6rem;
+    width: 60%;
+}
+.text{
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+    margin-left: 6rem;
+    width: 50%;
+    font-size: 2.5em;
+    
+}
+

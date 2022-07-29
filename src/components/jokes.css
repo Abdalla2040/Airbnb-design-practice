@@ -1,0 +1,21 @@
+.jokes-container{
+    width: 85%;
+    margin: 5rem auto;
+    box-shadow: 0.5rem 0.5rem 0.9rem pink;
+    padding: 2rem;
+    transition: box-shadow 400ms ease;
+}
+.jokes-container:hover{
+    box-shadow: 0.5rem 0.5rem 0.9rem rgb(208, 142, 218);;
+    
+}
+.setup{
+    color: rgb(228, 119, 119);
+    font-size: 2.5em;
+    font-weight: 700;
+}
+.punchline{
+    color: rgb(210, 119, 228);
+    font-size: 1.5em;
+    font-weight: 400;
+}
